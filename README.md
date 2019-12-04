@@ -1,7 +1,7 @@
 # AR Molecular Viewer
 
 ## Introduction 
-This AR app was developped for a Research &amp; Development Project on Protein Visualization. The app was developped using Unity and C# programming language.
+This Android AR app was developped for a Research &amp; Development Project on Protein Visualization. The app was choosen and developped in a group of 3-4 student using Unity and C# programming language.
 
 ## Dev Requirements
 ### Application Side
