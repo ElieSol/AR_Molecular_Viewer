@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Connection.cs">
+    <Files>
+      <File FileName="Assets/Load3DModel.cs" Line="24" Column="30" />
+      <File FileName="Assets/ChargeModel.cs" Line="111" Column="37" />
+      <File FileName="Assets/Connection.cs" Line="22" Column="5" />
+      <File FileName="Assets/VuforiaScanner.cs" Line="22" Column="24" />
+      <File FileName="Assets/SocketIO/Scripts/SocketIO/SocketIOComponent.cs" Line="57" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
