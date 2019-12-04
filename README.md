@@ -16,8 +16,8 @@ This Android AR app was developped for a Research &amp; Development Project on P
 - PyMOL
 
 ## Final Rendering
-_____________________________
+
 ![alt text](https://github.com/ElieSol/AR_Molecular_Viewer/blob/master/demo1.png)
 
 Figure: Preview of the User Interface of the Application
-_____________________________
+
