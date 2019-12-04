@@ -5,7 +5,7 @@ This Android AR app was developped for a Research &amp; Development Project on P
 
 ## Dev Requirements
 ### Application Side
-- Unity
+- Unity (*version used 2017.2.0*)
 - Vuforia
 - SocketIO
 - ZXing
