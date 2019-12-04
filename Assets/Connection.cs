@@ -19,11 +19,9 @@ public class Connection: MonoBehaviour
 		GameObject go = GameObject.Find("SocketIO");
 		socket = go.GetComponent<SocketIOComponent>();
 		url = socket.setURL ();
-		//socket.setIP ();
 		Debug.Log ("Adresse of server="+url);
 		Debug.Log ("Client Ready. Ip of host set.");
 		Debug.Log ("Client started listening");
-		//
 		socket.On ("message", OnMessage);
 		socket.On ("boop", TestBoop);
 		StartCoroutine (ConnectToServer (url_pdb));
@@ -114,12 +112,10 @@ public class Connection: MonoBehaviour
 		string prefilename = type+"_"+id_pdb +".dae";
 		string filename = prefilename.ToString ();
 		string prefile_name = Application.persistentDataPath + "/" + filename;
-		//string prefile_name = "/Users/Juliesolacroup/Desktop" + "/" + filename;
 		string file_name = prefile_name.ToString ();
 		File.WriteAllBytes(file_name, www.bytes);
 		Debug.Log("path to file ="+file_name);
 		new WWW ("file://" + Application.persistentDataPath + "/" + filename);
-		//new WWW ("file://" + "Users/Juliesolacroup/Desktop" + "/" + filename);
 	}
 
 	// Méthode utilitaire 
